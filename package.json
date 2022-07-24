@@ -1,0 +1,20 @@
+{
+  "name": "ios",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist/ && pnpm -r run build && node index.js"
+  },
+  "dependencies": {
+    "slidev-theme-geist": "^0.8.1"
+  },
+  "devDependencies": {
+    "marked": "^4.0.16",
+    "rimraf": "^3.0.2"
+  }
+}

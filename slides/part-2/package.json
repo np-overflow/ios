@@ -1,0 +1,14 @@
+{
+  "name": "part-2",
+  "private": true,
+  "scripts": {
+    "build": "slidev build --base /part-2/ --out ../../dist/part-2",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.34.3",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
+  }
+}
