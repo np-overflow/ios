@@ -1,6 +1,8 @@
 ---
 # try also 'default' to start simple
 theme: geist
+css: style.css
+
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://source.unsplash.com/collection/94734566/1920x1080
@@ -73,16 +75,11 @@ layout: cover
 
 ## Important shortcuts
 
-<ul>
-  <li> <kbd>⌘Space</kbd> opens up spotlight search 
-    <ul>
-      <li> A fancy search bar where you can open anything. </li>
-      <li> Similar to your Start menu on Windows. </li>
-    </ul>
-  </li>
-  <li> <kbd>⌘C</kbd> and <kbd>⌘V</kbd> is copy and paste respectively </li>
-  <li> <kbd>⌘Z</kbd> and <kbd>⌘⇧Z</kbd> is undo and redo respectively </li>
-</ul>
+- <kbd>⌘Space</kbd> opens up spotlight search 
+  - A fancy search bar where you can open anything.
+  - Similar to your Start menu on Windows.
+- <kbd>⌘C</kbd> and <kbd>⌘V</kbd> is copy and paste respectively
+- <kbd>⌘Z</kbd> and <kbd>⌘⇧Z</kbd> is undo and redo respectively
 
 ---
 layout: center
@@ -158,4 +155,38 @@ layout: cover
 ---
 # 📐 Layout
 ## Make use of stacks to create custom layouts
+
 --- 
+
+# Understanding the code
+```swift {all|10-15|12-13}
+//
+//  ContentView.swift
+//  Counter
+//
+//  Created by Jia Chen Yee on 25/7/22.
+//
+
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        Text("Hello, World")
+            .padding()
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+```
+
+# VStack
+
+- Vertical Stack Views
+- Views within its curly braces will be arranged vertically
+
+
+---
