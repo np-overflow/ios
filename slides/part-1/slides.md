@@ -183,10 +183,38 @@ struct ContentView_Previews: PreviewProvider {
 }
 ```
 
+---
+layout: image-right
+image: assets/vstack.png
+---
 # VStack
 
 - Vertical Stack Views
 - Views within its curly braces will be arranged vertically
 
+```swift
+VStack {
+    Text("Apple")
+    Text("Banana")
+    Text("Strawberry")
+}
+```
+
+---
+layout: image-right
+image: assets/hstack.png
+---
+# HStack
+
+- Horizontal Stack Views
+- Views within its curly braces will be arranged horizontally
+
+```swift
+HStack {
+    Text("Apple")
+    Text("Banana")
+    Text("Strawberry")
+}
+```
 
 ---
