@@ -54,8 +54,8 @@ h1 {
 </style>
 
 ---
-layout: section
-title: ## aa
+layout: image-right
+image: assets/demo.gif
 ---
 # Demo
 
