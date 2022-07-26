@@ -184,6 +184,16 @@ struct ContentView_Previews: PreviewProvider {
 ```
 
 ---
+
+# Text
+
+- Display a static, uneditable Text on screen.
+
+```swift
+Text("Hello!")
+```
+
+---
 layout: image-right
 image: assets/vstack.png
 ---
@@ -218,3 +228,9 @@ HStack {
 ```
 
 ---
+layout: cover
+---
+# 🌄 Images & Assets
+## Add images into the app
+
+--- 
