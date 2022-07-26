@@ -55,7 +55,7 @@ h1 {
 
 ---
 layout: image-right
-image: assets/demo.gif
+image: /assets/demo.gif
 ---
 # Demo
 
@@ -84,7 +84,7 @@ layout: cover
 ---
 layout: center
 ---
-![The best way to build an app is with Swift and SwiftUI](assets/wwdc.png)
+![The best way to build an app is with Swift and SwiftUI](/assets/wwdc.png)
 — Apple, Platforms State of the Union, WWDC, June 2022
 
 ---
@@ -108,18 +108,18 @@ layout: cover
 
 # Open up Xcode
 - Type <kbd>⌘Space</kbd> and search for Xcode and click on the result
-![](assets/welcometoxcode.png)
+![](/assets/welcometoxcode.png)
 
 ---
 
 # Create a project
 - Select **Create a new Xcode project**
 - Select **iOS**, then **App** and press **Next**
-![](assets/projecttemplate.png)
+![](/assets/projecttemplate.png)
 
 ---
 layout: image-right
-image: assets/projectsetup.png
+image: /assets/projectsetup.png
 ---
 
 # Project Setup
@@ -138,11 +138,11 @@ image: assets/projectsetup.png
 # Run the project
 - Click the ▶ icon in the menubar to run the app!
 
-![](assets/xcodelaunch.png)
+![](/assets/xcodelaunch.png)
 
 ---
 layout: image-left
-image: assets/simulatorhelloworld.png
+image: /assets/simulatorhelloworld.png
 ---
 
 # Simulator
@@ -195,7 +195,7 @@ Text("Hello!")
 
 ---
 layout: image-right
-image: assets/vstack.png
+image: /assets/vstack.png
 ---
 # VStack
 
@@ -212,7 +212,7 @@ VStack {
 
 ---
 layout: image-right
-image: assets/hstack.png
+image: /assets/hstack.png
 ---
 # HStack
 
