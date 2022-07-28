@@ -380,7 +380,7 @@ Image("MyImage")
 ---
 
 # Real Background Colour
-```swift{all|3-4,15}
+```swift{all|3-4,8}
 struct ContentView: View {
     var body: some View {
         ZStack {
@@ -399,7 +399,7 @@ struct ContentView: View {
 --- 
 
 # Linear Gradients
-```swift{all|3-4,15}
+```swift{4-6}
 struct ContentView: View {
     var body: some View {
         ZStack {
@@ -414,14 +414,52 @@ struct ContentView: View {
 }
 ```
 
+- Replace the `Color` with a `LinearGradient`.
+- Within the `colors:` parameter array, feel free to add any colours you want.
+- The `startPoint` and `endPoint` can be any direction (see next slide).
+
+---
+
+| Value            | Direction    |
+|------------------|--------------|
+|`.top`            | Top          |
+|`.topLeading`     | Top Left     |
+|`.topTrailing`    | Top Right    |
+|`.leading`        | Left         |
+|`.bottomTrailing` | Bottom Right |
+|`.bottom`         | Bottom       |
+|`.bottomLeading`  | Bottom Left  |
+|`.trailing`       | Right        |
 
 --- 
 
 # Radial Gradients
+```swift{4-7}
+struct ContentView: View {
+    var body: some View {
+        ZStack {
+            RadialGradient(colors: [.red, .yellow],
+                           center: .center,
+                           startRadius: 0,
+                           endRadius: 270)
+            VStack {
+                // ...
+            }
+        }
+    }
+}
+```
 
 ---
 
 # Spacer
+```swift
+Spacer()
+```
+
+- Takes up as much space as possible! Like me!
+- For instance, if you have a `VStack` with a `Spacer` in it between 2 elements, the two elements will be spaced apart
+- That's really it.
 
 ---
 layout: cover
@@ -431,6 +469,118 @@ layout: cover
 ## Respond to clicks
 
 --- 
+
+# State variables
+
+- Variables that *reloads* the entire view when they are changed
+- If the variable's value is changed, any views relying on it get automatically reloaded to display new content.
+
+---
+
+# Create a @State variable
+```swift{5}
+import SwiftUI
+
+struct ContentView: View {
+    
+    @State var counter = 0
+    
+    var body: some View {
+        ZStack {
+            RadialGradient(colors: [.red, .yellow],
+                           center: .center,
+```
+
+---
+
+# Buttons
+- Buttons can come in all shapes and sizes
+- You can turn any `View` into a `Button`
+
+```swift
+Button {
+    // What happens when the button is clicked
+} label: {
+    // How the button looks
+}
+```
+
+---
+
+# Change the image to a Button
+```swift{2-9}
+VStack {
+    Button {
+        
+    } label: {
+        Image("MyImage")
+            .resizable()
+            .scaledToFit()
+            .cornerRadius(8)
+    }
+    Text("Hello, world!")
+        .font(.system(size: 32, weight: .bold))
+        .foregroundColor(.red)
+        .background(Color.green)
+        .padding()
+}
+```
+
+---
+
+# Updating the counter
+- When the `Button` is clicked, increment the `counter` by 1
+
+```swift{3}
+VStack {
+    Button {
+        counter += 1
+    } label: {
+        Image("MyImage")
+            .resizable()
+            .scaledToFit()
+            .cornerRadius(8)
+    }
+    Text("Hello, world!")
+        .font(.system(size: 32, weight: .bold))
+        .foregroundColor(.red)
+        .background(Color.green)
+        .padding()
+}
+```
+
+---
+
+# Display the value!
+
+- Use String interpolation to display the counter's value in the `Text`.
+  - In Swift, you can use `"\(variable name)"` to embed a variable in the middle of a `String`.
+
+```swift{10}
+VStack {
+    Button {
+        counter += 1
+    } label: {
+        Image("MyImage")
+            .resizable()
+            .scaledToFit()
+            .cornerRadius(8)
+    }
+    Text("\(counter) Qin Guans clicked")
+        .font(.system(size: 32, weight: .bold))
+        .foregroundColor(.red)
+        .background(Color.green)
+        .padding()
+}
+```
+
+---
+
+# Try it out!
+- Run your code and try it out!
+- The `Button` should work and, with every click, your `Text` should automatically update.
+
+---
 layout: cover
 ---
 
