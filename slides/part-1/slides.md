@@ -35,11 +35,11 @@ Open slides here: https://ios.np-overflow.club/part-1/
 # Overview
 
 - 💻 [**macOS** - Welcome to the Mac!](4)
-- 👋 **Hello World** - Launch Xcode, create a project and run it!
-- 📐 **Layout** - Use stacks to layout the app
-- 🌄 **Images and assets** - Add an image, ideally of Qin Guan
-- 🛠 **Modifiers** - Customise Views using modifiers
-- 👀 **State** - Set the views and modify the state
+- 👋 [**Hello World** - Launch Xcode, create a project and run it!](8)
+- 📐 [**Layout** - Use stacks to layout the app](14)
+- 🌄 [**Images and assets** - Add an image, ideally of Qin Guan](19)
+- 🛠 [**Modifiers** - Customise Views using modifiers](24)
+- 👀 [**State** - Set the views and modify the state](37)
 
 <style>
 h1 {
