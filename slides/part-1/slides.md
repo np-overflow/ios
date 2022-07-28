@@ -587,5 +587,3 @@ layout: cover
 # 🎨 Customise it!
 ## Best/most ridiculous will get a Microsoft Water Bottle
 because funny
-
---- 
