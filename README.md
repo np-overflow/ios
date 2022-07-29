@@ -2,10 +2,24 @@
 
 This page contains the slides/resources you may need for our Mobile App Dev with iOS workshop.
 
+| Date        | Time           | Location |
+|-------------|----------------|----------|
+| 29 Jul 2022 | 6.30 to 8.30pm | 31-04-09 |
+| 05 Aug 2022 | 6.30 to 8.30pm | TBC      |
+
+
 * [Part 1](/part-1)
 * [Part 2](/part-2)
 
 ## Get started
+
+### Participant
+
+Open the corresponding slides in the links above
+
+### EXCO
+
+You can edit the slides [here](https://github.com/np-overflow/ios)
 
 You'll need the following
 
