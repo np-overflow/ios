@@ -1,14 +1,7 @@
 ---
 # try also 'default' to start simple
 theme: geist
-css: style.css
 
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://source.unsplash.com/collection/94734566/1920x1080
-# apply any windi css classes to the current slide
-class: 'text-center'
-# https://sli.dev/custom/highlighters.html
 highlighter: shiki
 lineNumbers: false
 
@@ -24,11 +17,13 @@ Part I
 
 Open slides here: https://ios.np-overflow.club/part-1/
 
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
-</div>
+---
+# Login to the iMac
+
+**User:** student
+
+**Password:** student
+
 
 ---
 
