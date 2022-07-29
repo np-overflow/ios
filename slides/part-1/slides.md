@@ -18,6 +18,7 @@ Part I
 Open slides here: https://ios.np-overflow.club/part-1/
 
 ---
+
 # Login to the iMac
 
 **User:** student
