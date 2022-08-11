@@ -592,4 +592,4 @@ layout: cover
 
 See you in **part two** next week!
 
-[Click here for attendance form](https://tinyurl.com/overflowios1)
+[Click here for attendance form](https://forms.office.com/Pages/ResponsePage.aspx?id=FeGpyxYwYkShq6Vly6DN8daI3b2lEehAoaSkaxb7XzZUOENMWUpMUVZWR09aRTQwTU5ZUVg4U0ZEUCQlQCN0PWcu)
