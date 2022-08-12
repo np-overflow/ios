@@ -62,7 +62,8 @@ layout: cover
 ## [learn.swiftinsg.org/tutorials/quiz-app](https://learn.swiftinsg.org/tutorials/quiz-app)
 
 ---
-layout: cover
+layout: image-right
+image: /assets/attendance_qr.jpeg
 ---
 
 # Thank you
