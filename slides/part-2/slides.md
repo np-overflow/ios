@@ -60,3 +60,13 @@ layout: cover
 ---
 # Here's a tutorial
 ## [learn.swiftinsg.org/tutorials/quiz-app](https://learn.swiftinsg.org/tutorials/quiz-app)
+
+---
+layout: cover
+---
+
+# Thank you
+
+We hope to see you next sem!
+
+[Click here for attendance form](https://tinyurl.com/overflowios2)
