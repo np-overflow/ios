@@ -15,6 +15,6 @@
   },
   "devDependencies": {
     "marked": "^4.0.16",
-    "rimraf": "^3.0.2"
+    "rimraf": "^5.0.0"
   }
 }
