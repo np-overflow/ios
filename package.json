@@ -14,7 +14,7 @@
     "slidev-theme-geist": "^0.8.1"
   },
   "devDependencies": {
-    "marked": "^6.0.0",
+    "marked": "^7.0.0",
     "rimraf": "^5.0.0"
   }
 }
