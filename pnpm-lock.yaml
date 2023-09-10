@@ -13,8 +13,8 @@ importers:
         version: 0.8.1
     devDependencies:
       marked:
-        specifier: ^7.0.0
-        version: 7.0.0
+        specifier: ^9.0.0
+        version: 9.0.0
       rimraf:
         specifier: ^5.0.0
         version: 5.0.0
@@ -23,7 +23,7 @@ importers:
     dependencies:
       '@slidev/cli':
         specifier: ^0.43.0
-        version: 0.43.0(@types/markdown-it@13.0.1)(postcss@8.4.23)
+        version: 0.43.0(@types/markdown-it@13.0.1)(postcss@8.4.29)
       '@slidev/theme-default':
         specifier: '*'
         version: 0.21.2
@@ -35,7 +35,7 @@ importers:
     dependencies:
       '@slidev/cli':
         specifier: ^0.43.0
-        version: 0.43.0(@types/markdown-it@13.0.1)(postcss@8.4.23)
+        version: 0.43.0(@types/markdown-it@13.0.1)(postcss@8.4.29)
       '@slidev/theme-default':
         specifier: '*'
         version: 0.21.2
@@ -1015,7 +1015,7 @@ packages:
       picomatch: 2.3.1
     dev: false
 
-  /@slidev/cli@0.43.0(@types/markdown-it@13.0.1)(postcss@8.4.23):
+  /@slidev/cli@0.43.0(@types/markdown-it@13.0.1)(postcss@8.4.29):
     resolution: {integrity: sha512-txJ+t7VsZVfDoLvU8KiKtBVaj37rI30/5y11f/wiLbnxWXcDYx+ZWfxMNxfvL7WxgDFAv2k7Euj4Hf/+NCVgQA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -1031,7 +1031,7 @@ packages:
       '@iconify-json/ph': 1.1.6
       '@lillallol/outline-pdf': 4.0.0
       '@mrdrogdrog/optional': 1.2.1
-      '@slidev/client': 0.43.0(postcss@8.4.23)(vite@4.4.9)
+      '@slidev/client': 0.43.0(postcss@8.4.29)(vite@4.4.9)
       '@slidev/parser': 0.43.0
       '@slidev/types': 0.43.0
       '@unocss/extractor-mdc': 0.55.7
@@ -1063,14 +1063,14 @@ packages:
       open: 8.4.2
       pdf-lib: 1.17.1
       plantuml-encoder: 1.4.0
-      postcss-nested: 6.0.1(postcss@8.4.23)
+      postcss-nested: 6.0.1(postcss@8.4.29)
       prismjs: 1.29.0
       prompts: 2.4.2
       resolve: 1.22.4
       resolve-from: 5.0.0
       resolve-global: 1.0.0
       shiki: /shikiji-compat@0.6.6
-      unocss: 0.55.7(postcss@8.4.23)(vite@4.4.9)
+      unocss: 0.55.7(postcss@8.4.29)(vite@4.4.9)
       unplugin-icons: 0.17.0
       unplugin-vue-components: 0.25.2(vue@3.3.4)
       unplugin-vue-markdown: 0.24.3(vite@4.4.9)
@@ -1107,7 +1107,7 @@ packages:
       - vue-template-es2015-compiler
     dev: false
 
-  /@slidev/client@0.43.0(postcss@8.4.23)(vite@4.4.9):
+  /@slidev/client@0.43.0(postcss@8.4.29)(vite@4.4.9):
     resolution: {integrity: sha512-DbYcpzGEeAWQjselJnLnkW+3+4+DhLcHGrljdQlMBIps3B8wtSkO3iPWvy2wybPevAsqYgbQFMR0XrRzM55+Sg==}
     engines: {node: '>=18.0.0'}
     dependencies:
@@ -1133,7 +1133,7 @@ packages:
       prettier: 3.0.3
       recordrtc: 5.6.2
       resolve: 1.22.4
-      unocss: 0.55.7(postcss@8.4.23)(vite@4.4.9)
+      unocss: 0.55.7(postcss@8.4.29)(vite@4.4.9)
       vite-plugin-windicss: 1.9.1(vite@4.4.9)
       vue: 3.3.4
       vue-router: 4.2.4(vue@3.3.4)
@@ -1235,7 +1235,7 @@ packages:
   /@types/mdast@3.0.11:
     resolution: {integrity: sha512-Y/uImid8aAwrEA24/1tcRZwpxX3pIFTSilcNDKSPn+Y2iDywSEachzRuvgAYYLR3wpGXAsMbv5lvKLDZLeYPAw==}
     dependencies:
-      '@types/unist': 2.0.6
+      '@types/unist': 3.0.0
     dev: false
 
   /@types/mdast@4.0.0:
@@ -1378,7 +1378,7 @@ packages:
       sirv: 2.0.3
     dev: false
 
-  /@unocss/postcss@0.55.7(postcss@8.4.23):
+  /@unocss/postcss@0.55.7(postcss@8.4.29):
     resolution: {integrity: sha512-53Z/yv/CNdlTqKZQ9gpYRoLZSuzQ28J0SDrGCdzwjLcvHG/FD7/x1S7yxE7cUp/4sjvLL15HSzkWq8vNy6SkwQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -1389,7 +1389,7 @@ packages:
       css-tree: 2.3.1
       fast-glob: 3.3.1
       magic-string: 0.30.3
-      postcss: 8.4.23
+      postcss: 8.4.29
     dev: false
 
   /@unocss/preset-attributify@0.55.7:
@@ -3572,8 +3572,8 @@ packages:
       uc.micro: 1.0.6
     dev: false
 
-  /marked@7.0.0:
-    resolution: {integrity: sha512-7Gv1Ry8tqR352ElQOQfxdGpIh8kNZh/yYjNCxAQCN1DDbY4bCTG3qDCSkZWlRElSseeEILDxkY/G9w7cgziBNw==}
+  /marked@9.0.0:
+    resolution: {integrity: sha512-37yoTpjU+TSXb9OBYY5n78z/CqXh76KiQj9xsKxEdztzU9fRLmbWO5YqKxgCVGKlNdexppnbKTkwB3RipVri8w==}
     engines: {node: '>= 16'}
     hasBin: true
     dev: true
@@ -4240,13 +4240,13 @@ packages:
     dev: false
     optional: true
 
-  /postcss-nested@6.0.1(postcss@8.4.23):
+  /postcss-nested@6.0.1(postcss@8.4.29):
     resolution: {integrity: sha512-mEp4xPMi5bSWiMbsgoPfcP74lsWLHkQbZc3sY+jWYd65CUwXrUaTp0fmNpa01ZcETKlIgUdFN/MpS2xZtqL9dQ==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
     dependencies:
-      postcss: 8.4.23
+      postcss: 8.4.29
       postcss-selector-parser: 6.0.11
     dev: false
 
@@ -4812,7 +4812,7 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: false
 
-  /unocss@0.55.7(postcss@8.4.23)(vite@4.4.9):
+  /unocss@0.55.7(postcss@8.4.29)(vite@4.4.9):
     resolution: {integrity: sha512-3W9P7vj2EhSk/4oPCHBS0VgrwSf5zZL6Az1/XARVOpBnRJtCM2szFInYxHkMgt9pkZTsW8SFCuk/g+QIJ6A8tg==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -4828,7 +4828,7 @@ packages:
       '@unocss/cli': 0.55.7
       '@unocss/core': 0.55.7
       '@unocss/extractor-arbitrary-variants': 0.55.7
-      '@unocss/postcss': 0.55.7(postcss@8.4.23)
+      '@unocss/postcss': 0.55.7(postcss@8.4.29)
       '@unocss/preset-attributify': 0.55.7
       '@unocss/preset-icons': 0.55.7
       '@unocss/preset-mini': 0.55.7
