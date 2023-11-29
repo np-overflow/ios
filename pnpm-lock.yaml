@@ -13,8 +13,8 @@ importers:
         version: 0.8.1
     devDependencies:
       marked:
-        specifier: ^9.0.0
-        version: 9.0.0
+        specifier: ^11.0.0
+        version: 11.0.0
       rimraf:
         specifier: ^5.0.0
         version: 5.0.0
@@ -3572,9 +3572,9 @@ packages:
       uc.micro: 1.0.6
     dev: false
 
-  /marked@9.0.0:
-    resolution: {integrity: sha512-37yoTpjU+TSXb9OBYY5n78z/CqXh76KiQj9xsKxEdztzU9fRLmbWO5YqKxgCVGKlNdexppnbKTkwB3RipVri8w==}
-    engines: {node: '>= 16'}
+  /marked@11.0.0:
+    resolution: {integrity: sha512-2GsW34uXaFEGTQ/+3rCnNC6vUYTAgFuDLGl70v/aWinA5mIJtTrrFAmfbLOfVvgPyxXuDVL9He/7reCK+6j3Sw==}
+    engines: {node: '>= 18'}
     hasBin: true
     dev: true
 
